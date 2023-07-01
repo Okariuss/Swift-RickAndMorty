@@ -23,6 +23,7 @@
 		EB73372E2A50A997000E57C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EB73372D2A50A997000E57C9 /* Alamofire */; };
 		EB7337312A50A9BF000E57C9 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = EB7337302A50A9BF000E57C9 /* AlamofireImage */; };
 		EB7337352A50AE84000E57C9 /* RickAndMortyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7337342A50AE84000E57C9 /* RickAndMortyViewModel.swift */; };
+		EB7337382A50C1F4000E57C9 /* RickAndMortyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7337372A50C1F4000E57C9 /* RickAndMortyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		EB7337282A50A673000E57C9 /* RickAndMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyService.swift; sourceTree = "<group>"; };
 		EB73372A2A50A68B000E57C9 /* RickAndMortyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyModel.swift; sourceTree = "<group>"; };
 		EB7337342A50AE84000E57C9 /* RickAndMortyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyViewModel.swift; sourceTree = "<group>"; };
+		EB7337372A50C1F4000E57C9 /* RickAndMortyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		EB5D21522A4F83F60026CD9E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EB7337362A50C1C9000E57C9 /* TableViewCell */,
 				EB5D21562A4F84530026CD9E /* RickAndMortyViewController.swift */,
 			);
 			path = View;
@@ -199,6 +202,14 @@
 				EB7337282A50A673000E57C9 /* RickAndMortyService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		EB7337362A50C1C9000E57C9 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EB7337372A50C1F4000E57C9 /* RickAndMortyTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +357,7 @@
 				EB7337292A50A673000E57C9 /* RickAndMortyService.swift in Sources */,
 				EB5D21242A4F80900026CD9E /* ViewController.swift in Sources */,
 				EB7337352A50AE84000E57C9 /* RickAndMortyViewModel.swift in Sources */,
+				EB7337382A50C1F4000E57C9 /* RickAndMortyTableViewCell.swift in Sources */,
 				EB5D21202A4F80900026CD9E /* AppDelegate.swift in Sources */,
 				EB5D21572A4F84530026CD9E /* RickAndMortyViewController.swift in Sources */,
 				EB5D21222A4F80900026CD9E /* SceneDelegate.swift in Sources */,
