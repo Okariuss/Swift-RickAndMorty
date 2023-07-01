@@ -8,6 +8,11 @@
 import UIKit
 import SnapKit
 
+protocol RickAndMortyOutput {
+    func changeLoading(isLoad: Bool)
+    func saveDatas(values: [Result])
+}
+
 final class RickAndMortyViewController: UIViewController {
     
     private let labelTitle: UILabel = UILabel()
@@ -43,6 +48,17 @@ final class RickAndMortyViewController: UIViewController {
         }
         indicator.startAnimating()
     }
+}
+extension RickAndMortyViewController : RickAndMortyOutput {
+    func changeLoading(isLoad: Bool) {
+        isLoad ? self.indicator.startAnimating() : self.indicator.stopAnimating()
+    }
+    
+    func saveDatas(values: [Result]) {
+        <#code#>
+    }
+    
+    
 }
 extension RickAndMortyViewController {
     private func makeBox() {
