@@ -17,6 +17,7 @@
 		EB5D21412A4F80910026CD9E /* RickAndMortyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D21402A4F80910026CD9E /* RickAndMortyAppUITests.swift */; };
 		EB5D21432A4F80910026CD9E /* RickAndMortyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D21422A4F80910026CD9E /* RickAndMortyAppUITestsLaunchTests.swift */; };
 		EB5D21572A4F84530026CD9E /* RickAndMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5D21562A4F84530026CD9E /* RickAndMortyViewController.swift */; };
+		EB7337272A50A337000E57C9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB7337262A50A337000E57C9 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7337272A50A337000E57C9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +204,9 @@
 			dependencies = (
 			);
 			name = RickAndMortyApp;
+			packageProductDependencies = (
+				EB7337262A50A337000E57C9 /* SnapKit */,
+			);
 			productName = RickAndMortyApp;
 			productReference = EB5D211C2A4F80900026CD9E /* RickAndMortyApp.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +279,9 @@
 				Base,
 			);
 			mainGroup = EB5D21132A4F80900026CD9E;
+			packageReferences = (
+				EB7337252A50A337000E57C9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = EB5D211D2A4F80900026CD9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -662,6 +670,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB7337252A50A337000E57C9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB7337262A50A337000E57C9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7337252A50A337000E57C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB5D21142A4F80900026CD9E /* Project object */;
 }
