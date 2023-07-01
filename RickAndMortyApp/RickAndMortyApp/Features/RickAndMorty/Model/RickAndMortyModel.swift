@@ -17,7 +17,6 @@ struct RickAndMortyModel: Codable {
 struct Info: Codable {
     let count, pages: Int?
     let next: String?
-    let prev: JSONNull?
 }
 
 // MARK: - Result
